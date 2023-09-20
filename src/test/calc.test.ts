@@ -1,5 +1,5 @@
-import {soma} from ../src/domain/calc.ts;
+import { soma1 } from "../domain/calc"
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(soma(1, 2)).toBe(3);
+test('soma de 1 + 1 = 2', () => {
+  expect(soma1(1, 1)).toBe(2);
 });
